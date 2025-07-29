@@ -20,14 +20,16 @@
         .disco{
             width: 100%;
             aspect-ratio: 1/1;
-            border: 1px black solid;
+            border: transparent;
             border-radius: 40%;
         }
         .disco[data-cor="preto"]{
             background: radial-gradient(circle at top, white, black);
+            border: 1px black solid;
         }
         .disco[data-cor="branco"]{
             background: radial-gradient(circle at top, white, salmon);
+            border: 1px black solid;
         }
         .disco[data-posicao="0"]{
             grid-column: 1;
